@@ -21,8 +21,8 @@ jobs:
 
       - name: Compile
         run: javac Hello.java
-        javac Welcome.java
+            javac Welcome.java
 
       - name: Run
         run: java Hello
-        java Welcome
+            java Welcome
